@@ -1,0 +1,29 @@
+A bash script is a series of commands written in a file.
+These are read and exectued by the bash program, whereby the program executes line by line.
+
+For example, you can navigate to a certain path, create a folder and spawn a process inside it using the command line.
+
+By naming conventions, bash scripts end with a .sh. 
+However, bash scripts can run perfectly fine without the sh extension.
+
+Scripts start with a bash bang. Scripts are also identified with a shebang. 
+Shebang is a combination of bash #! followed the the bash shell path. 
+This is the first line of the script. Shebang tells the shell to execute it via bash shell. 
+Shebang is simply an absolute path to the bash interpreter.
+
+Below is an example of the shebang statement.
+
+#! /bin/bash
+
+
+You can run the script in the following ways:
+./hello.world.sh
+bash hello.world.sh
+
+Printing
+echo
+
+Defining Variables
+variable=
+$variable
+
